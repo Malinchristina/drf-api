@@ -81,6 +81,7 @@ CSRF_TRUSTED_ORIGINS = [
     'http://localhost:8000',
     'http://127.0.0.1:8000',
     'https://8000-malinchristina-drfapi-l5vvofrrqis.ws.codeinstitute-ide.net',
+    'https://3000-malinchristin-wtmoments-p3do9mi96dd.ws.codeinstitute-ide.net/',
 ]
 
 if "CLIENT_ORIGIN" in os.environ:
