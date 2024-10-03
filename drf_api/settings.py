@@ -76,6 +76,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     '8000-malinchristina-drfapi-l5vvofrrqis.ws.codeinstitute-ide.net',
     '3000-malinchristin-wtmoments-p3do9mi96dd.ws.codeinstitute-ide.net',
+    'whispering-plateau-35247.herokuapp.com', 
 ]
 
 CSRF_TRUSTED_ORIGINS = [
@@ -83,6 +84,7 @@ CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1:8000',
     'https://8000-malinchristina-drfapi-l5vvofrrqis.ws.codeinstitute-ide.net',
     'https://3000-malinchristin-wtmoments-p3do9mi96dd.ws.codeinstitute-ide.net',
+    'whispering-plateau-35247.herokuapp.com', 
 ]
 
 if "CLIENT_ORIGIN" in os.environ:
@@ -91,6 +93,7 @@ if "CLIENT_ORIGIN" in os.environ:
 CORS_ALLOWED_ORIGIN_REGEXES = [
     r"^https://.*\.codeinstitute-ide\.net$",
     r"^https://.*\.gitpod\.io$",
+    r"^https://.*\.herokuapp\.com$",
 ]
 
 
